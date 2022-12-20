@@ -1,0 +1,10 @@
+<div class="card-columns ms-1" style="width: 85rem;">
+<div class="card mb-4" *ngFor="let pj of game">
+        <img [src]="pj.imageUrl" class="card-img-top" alt="{{pj.fullName}}">
+        <div class="card-body">
+            <h5 class="card-title">{{pj.fullName}}</h5>
+            <p class="card-text">{{pj.title}}</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+
+</div>
+</div>

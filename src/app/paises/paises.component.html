@@ -1,0 +1,10 @@
+<div class="card-columns ms-1" style="width:80rem;">
+    <div class="card mb-4" *ngFor="let pj of pais">
+            <img [src]="pj.flags.png" class="card-img-top" alt="{{pj.name}}">
+            <div class="card-body ">
+                <h5 class="card-title">{{pj.name}}</h5>
+                <p class="card-text">{{pj.capital}}</p>
+                <div class="flex"><a href="#" class="btn btn-primary item-right">Ver más</a></div>
+
+    </div>
+</div>
